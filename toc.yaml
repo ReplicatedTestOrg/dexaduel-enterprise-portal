@@ -46,6 +46,18 @@ navigation:
       - title: Checking for Updates
         page: pages/updates/checking.md
 
+  - title: Reference
+    icon: book
+    items:
+      - title: Helm Chart Reference
+        helm_chart:
+          name: dexaduel
+      - title: AWS Infrastructure
+        terraform_module: github.com/ReplicatedTestOrg/dexaduel-terraform//modules/aws?ref=v1.0.0
+        visible_when:
+          entitlements:
+            - feature_terraform_docs
+
   - title: Support
     icon: life-buoy
     items:

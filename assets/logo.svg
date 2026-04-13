@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <rect width="256" height="256" rx="32" fill="#1e293b"/>
+  <text x="128" y="100" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="72" font-weight="800" fill="#f97316">DD</text>
+  <rect x="68" y="130" width="120" height="12" rx="6" fill="#64748b"/>
+  <circle cx="68" cy="136" r="18" fill="#f97316"/>
+  <circle cx="188" cy="136" r="18" fill="#f97316"/>
+  <circle cx="68" cy="136" r="12" fill="#1e293b"/>
+  <circle cx="188" cy="136" r="12" fill="#1e293b"/>
+  <circle cx="68" cy="136" r="6" fill="#f97316"/>
+  <circle cx="188" cy="136" r="6" fill="#f97316"/>
+  <text x="128" y="190" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#94a3b8">DEXADUEL</text>
+</svg>

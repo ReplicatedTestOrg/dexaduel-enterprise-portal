@@ -2,6 +2,6 @@ branding:
   title: "DexaDuel"
   primaryColor: "#f97316"
   secondaryColor: "#1e293b"
-  logo: assets/logo.svg
+  logo: assets/logo.png
   favicon: assets/favicon.ico
   contact: "support@dexaduel.com"

@@ -2,9 +2,9 @@
 title: Documentation
 ---
 
-# Documentation
+# DexaDuel Documentation
 
-Welcome to your personalized documentation portal. The navigation and content are customized based on your license entitlements.
+Welcome to the DexaDuel documentation portal. Use the sidebar to find installation guides, operations docs, and reference material for your deployment.
 
 ## Available Features
 

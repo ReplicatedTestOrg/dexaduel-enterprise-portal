@@ -7,4 +7,14 @@ visible_when:
 
 # Security
 
-View vulnerability scanning and security reports for your releases.
+View vulnerability scanning and security reports for your DexaDuel releases.
+
+## Vulnerability Report
+
+<SecurityVersionSelector />
+
+<CVEReport />
+
+## Software Bill of Materials
+
+<SBOMReport />

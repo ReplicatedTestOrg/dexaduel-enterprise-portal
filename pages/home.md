@@ -31,6 +31,10 @@ Use the sidebar navigation on the left to explore available documentation sectio
 3. **Updates** — Check for and manage application updates
 4. **Support Bundles** — Generate diagnostic bundles for troubleshooting
 
+## Resources
+
+- [Deployment Guide (PDF)]({{asset "assets/deployment-guide.pdf"}})
+
 ## Quick Links
 
 {{#if entitlements.isEmbeddedClusterDownloadEnabled}}

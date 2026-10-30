@@ -1,13 +1,13 @@
 ---
 title: Security
 visible_when:
-  permissions:
+  entitlements:
     - canViewSecurity
 ---
 
 # Security
 
-View vulnerability scanning and security reports for your DexaDuel releases.
+Review vulnerability reports and software bill of materials for your current DexaDuel release.
 
 <SecurityVersionSelector />
 

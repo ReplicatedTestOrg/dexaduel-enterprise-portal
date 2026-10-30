@@ -6,17 +6,9 @@ title: Frequently Asked Questions
 
 ## General
 
-{{#if entitlements.isEmbeddedClusterDownloadEnabled}}
-<Accordion title="What are the system requirements?">
-
-See [Requirements](../installation/requirements) for details.
-
-</Accordion>
-{{/if}}
-
 <Accordion title="How do I check for updates?">
 
-See [Checking for Updates](../updates/checking).
+See [Instances & Updates](../updates/instances).
 
 </Accordion>
 
@@ -36,14 +28,6 @@ Choose [Embedded Cluster (Linux)](../installation/linux) for installing on a Lin
 
 <Accordion title="How do I collect diagnostic information?">
 
-Generate a support bundle for troubleshooting:
-
-{{#if entitlements.isEmbeddedClusterDownloadEnabled}}
-- [Linux installations](../operations/bundles/linux)
-{{/if}}
-{{#if entitlements.isHelmInstallEnabled}}
-- [Helm installations](../operations/bundles/helm)
-{{/if}}
-- If you already have a support bundle, [upload it here](../operations/bundles/uploaded)
+See [Support Bundles](./bundles) to generate a new bundle, or [upload an existing one](./bundles#upload-an-existing-bundle).
 
 </Accordion>

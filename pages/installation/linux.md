@@ -1,21 +1,29 @@
 ---
-title: Linux Installation
+title: Linux (Embedded Cluster)
 visible_when:
   entitlements:
     - isEmbeddedClusterDownloadEnabled
 ---
 
-# Linux Installation
+# Linux (Embedded Cluster)
 
 Install your application on a Linux server using Embedded Cluster. Read the docs or select your deployment preferences.
 
 ## Requirements
 
-See the [system requirements documentation](requirements) for the full list of prerequisites. At minimum:
+Confirm the target host meets these prerequisites before installing:
 
 - Ubuntu 20.04+ / RHEL 8+ / CentOS 8+
 - 4 CPUs, 8GB RAM, 40GB disk minimum
 - Root or sudo access
+
+## Choose an installation
+
+<PendingInstallSelector method="linux" />
+
+<NewInstall method="linux" />
+
+<InstanceName method="linux" />
 
 ## Configuration
 
@@ -31,6 +39,10 @@ The install command must be run as root or with sudo. Running without elevated p
 </Warning>
 
 SSH into your target machine and run the following command.
+
+<Note>
+The commands below are personalized to your selected installation. If you switch installations or rename your instance, the commands will update automatically.
+</Note>
 
 <LinuxInstallAssets />
 
@@ -49,8 +61,6 @@ kubectl get pods -A
 # Access the admin console
 echo "Admin Console: https://$(hostname):8800"
 </CommandBlock>
-
-<InstanceName />
 
 ## Post-Install
 

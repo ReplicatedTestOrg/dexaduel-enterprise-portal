@@ -20,6 +20,8 @@ Your installation includes access to the following features:
 - **Air Gap Support:** Install in disconnected environments
 {{/if}}
 
+<UpdatesCard />
+
 ## Getting Started
 
 <Tip title="New to this portal?">
@@ -28,37 +30,33 @@ Start with the Installation Guide for your deployment method. The configuration 
 
 Use the sidebar navigation on the left to explore available documentation sections. We recommend starting with:
 
-{{#if entitlements.isEmbeddedClusterDownloadEnabled}}
-1. **Installation Requirements** — Review system requirements and prerequisites for Embedded Cluster installations
-{{/if}}
-2. **Installation Guide** — Follow step-by-step installation instructions for your deployment method
-3. **Updates** — Check for and manage application updates
-4. **Support Bundles** — Generate diagnostic bundles for troubleshooting
+1. **Installation Guide** — Follow step-by-step installation instructions for your deployment method
+2. **Instances & Updates** — Review deployed instances and manage application updates
+3. **Support Bundles** — Generate diagnostic bundles for troubleshooting
 
 ## Quick Links
 
-<OptionSelector label="Install Method" defaultOption="Linux" storageKey="install-method">
-<Option value="Linux">
+<Tabs groupId="install-method">
+<Tab title="Linux">
 
 {{#if entitlements.isEmbeddedClusterDownloadEnabled}}
-- [Installation Requirements](installation/requirements)
 - [Linux Installation](installation/linux)
 {{/if}}
 - [Release History](installation/release-history)
-- [Check for Updates](updates/checking)
-- [Linux Support Bundles](operations/bundles/linux)
+- [Instances & Updates](updates/instances)
+- [Support Bundles](support/bundles)
 - [FAQ](support/faq)
 
-</Option>
-<Option value="Helm">
+</Tab>
+<Tab title="Helm">
 
 {{#if entitlements.isHelmInstallEnabled}}
 - [Helm Installation](installation/helm)
 {{/if}}
 - [Release History](installation/release-history)
-- [Check for Updates](updates/checking)
-- [Helm Support Bundles](operations/bundles/helm)
+- [Instances & Updates](updates/instances)
+- [Support Bundles](support/bundles)
 - [FAQ](support/faq)
 
-</Option>
-</OptionSelector>
+</Tab>
+</Tabs>
